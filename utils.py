@@ -55,10 +55,10 @@ def configure_openai_api_key():
 
     # Display the resized image in the sidebar
     st.sidebar.image(new_image, width=300)
-    st.sidebar.markdown(
-    "#### <a href='https://datasciencedojo.com/' style='color:light-blue;'>Powered by Data Science Dojo</a>",
-    unsafe_allow_html=True
-     )
+    # st.sidebar.markdown(
+    # "#### <a href='https://datasciencedojo.com/' style='color:light-blue;'>Powered by Data Science Dojo</a>",
+    # unsafe_allow_html=True
+    #  )
     openai_api_key = st.sidebar.text_input(
         label="OpenAI API Key",
         type="password",
